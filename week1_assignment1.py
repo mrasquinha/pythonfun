@@ -1,9 +1,9 @@
-from DAG.UnionFind import UnionFind
+from UnionFind import UnionFind
 
 __author__ = 'mrasquinha'
 
 #algos1: Problem 1; 3-9 0-5 3-8 8-5 2-3 6-3
-uf=UnionFind(10)
+uf= UnionFind(10)
 uf.print_tree("Init")
 uf.union(3,9)
 uf.union(0,5)
